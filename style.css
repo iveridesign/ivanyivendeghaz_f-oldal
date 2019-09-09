@@ -50,30 +50,24 @@ table {
 
 html, body {
 	margin: 0px;
-	padding: 20px;	
-	background-color: rgba(255, 168, 118, 0.3);
-	line-height: 1,8em;
+	padding: 0px;
+	line-height: 1,5em;
+	text-align: center;
+	border: 3px solid rgb(208, 243, 221);
 }
 
-h1, h2, caption {
-	text-align: center;
-	font-family: Century, sans-serif;
+h1, h2, p {
+	font-family: Myriad Pro;
+	line-height: 1,5em;
 }
  
 h1{
 	font-size: 40px;
 	word-spacing: 5px;
-	padding: 40px 10px 40px 10px;
-	text-align: center;
+	padding: 20px 10px 20px 10px;
 }
 
-
-hr{
-	border: 1px solid white;
-	width: 50%;
-}
-
-h2, caption {
+h2 {
 	font-size: 32px;
 }
 
@@ -81,24 +75,39 @@ h3 {
 	font-size: 20px;
 }
 
-h4{
- font-size: 40px;
+
+.menüsor {
+	text-align: center;
+	word-spacing: 20px;
+	border-bottom: 5px solid rgb(208, 243, 221);
+    padding: 30px;
+    border-radius: 50%;
+    font-size: 20px;
 }
 
-img {
-	width: 100%;
-	height: auto;
+#img1, #img2, #img3 {
+	border-sizing: border-box;
+	border: 5px solid rgb(208, 243, 221);
+	width: 50%;
+}
+
+
+figure {
 	border-radius: 5%;
-	position: relative;
+	background-color: rgb(208, 243, 221);
+    float: left;
+	max-width: 33,3%;
 }
 
-p{
-	font-family: Arial, sans-serif;
-	font-size: 16px;
-	max-width: 98%
-	line-height: 1,5em;
+.képaláírás1 {
+	width: 100%;
+	padding: 20px auto;
 }
 
+.képaláírás2 {
+	width: 100%;
+	padding: 20px auto;
+}
 
 a {
 	color: blue;
@@ -107,63 +116,45 @@ a {
 a:hover {
 	color: lightblue;
 }
-
-
-.local-link1, local-link2 {
-	text-align: center;
-}
-
-.kiemelt {
-	color: coral;
-	background-color: rgba(255, 255, 255, 0.5);
-	text-align: center;
-	padding: 10px;
-}
-
-ul, li {
-	text-align: left;
-	list-style: square;
-	padding-left: 20px;
-	width: 100%;
-}
-
-i {
-  font-style: italic;
-  color: blue; 
-}
-
-i:hover {
-	color: lightblue;
-}
-
 table {
 	width: 100%;
 }
 
 table, th, td {
-	border: 2px dotted white;
-   	border-collapse: collapse;
-   	text-align: center;
- }
+  	border-collapse: collapse;
+}
 
 th, td {
-    text-align: center;
-	padding: 10px;
+  padding: 10px;
 }
 
-
-caption {
-	padding-bottom: 20px;
+.szállásfoglalás_adatok {
+	background-color: rgb(208, 243, 221);
+	padding: 10px 60px 10px 60px;
+	text-align: center;
+	position: relative;
+	font-size: 20px;
 }
 
-footer {
-	color: black;
-	padding: 10px;
-	padding-bottom: 0px;
+#logo {
 	text-align: center;
 }
 
-#footer-hr {
-   border: 1px solid white;
-   width: 100%;
+#Ön_itt_áll {
+	text-align: left;
+	font-weight: bold;
+}
+
+.footer_menupontok {
+	background-color: rgb(247, 214, 185);
+	padding: 10px;
+	text-align: center;
+	font-size: 12px;
+}
+
+footer {
+	text-align: center;
+	padding-top: 5px;
+	border-top: 5px solid rgb(208, 243, 221);
+    padding-bottom: 10px;
 }
