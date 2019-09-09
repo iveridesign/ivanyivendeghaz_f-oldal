@@ -60,6 +60,11 @@ h1, h2, p {
 	font-family: Myriad Pro;
 	line-height: 1,5em;
 }
+
+p {
+	font-size: 15px;
+	line-height: 1,8em;
+}
  
 h1{
 	font-size: 40px;
@@ -93,6 +98,14 @@ h3 {
     font-size: 20px;
 }
 
+#fooldal {
+   border-radius: 50%;
+   border-width: 20%;
+   background-color: rgb(208, 243, 221);
+}
+
+ 
+
 #img1, #img2, #img3 {
 	border-sizing: border-box;
 	border: 5px solid rgb(208, 243, 221);
@@ -120,6 +133,10 @@ figure {
 .képaláírás2 {
 	width: 100%;
 	padding: 20px auto;
+}
+
+.rolunk {
+	text-align: left;
 }
 
 a {
@@ -173,7 +190,6 @@ ul, li {
 
 .footer_menupontok {
 	background-color: rgb(247, 214, 185);
-	padding: 10px;
 	text-align: center;
 	font-size: 12px;
 	width: 100%;
