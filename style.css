@@ -149,12 +149,18 @@ th, td {
 	font-size: 20px;
 }
 
-.szolgaltatasok, .kedvezmenyek {
+.szolgaltatasok, .kedvezmenyek, .kozelben {
     text-align: left;
 }
 
 ul, li {
 	text-align: left;
+}
+
+.rolunk_mondtak1, .rolunk_mondtak2, .rolunk_mondtak3, .rolunk_mondtak4  {
+	border: 2px solid rgb(208, 243, 221);
+	padding: 10px;
+	width: 50%;
 }
 
 .footer_menupontok {
