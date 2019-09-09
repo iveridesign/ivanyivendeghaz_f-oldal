@@ -163,6 +163,14 @@ ul, li {
 	width: 50%;
 }
 
+.rolunk_mondtak1, .rolunk_mondtak3 {
+	text-align: left;
+}
+
+.rolunk_mondtak2, .rolunk_mondtak4 {
+	text-align: left;
+ }
+
 .footer_menupontok {
 	background-color: rgb(247, 214, 185);
 	padding: 10px;
